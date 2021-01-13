@@ -52,8 +52,20 @@
             </picture>
 
             <p>My favorite Linux Command (DON'T TRY IT): <br> <code>rm -rf /</code></p>
+            
+            <canvas width="5" height="5">
+                An animation of a soccer ball!
+            </canvas>
 
             <p>Hobbies:</p>
+            <pre>
+                      ██╗░░░░░███████╗████████╗██╗░██████╗  ░██████╗░░█████╗░
+                      ██║░░░░░██╔════╝╚══██╔══╝╚█║██╔════╝  ██╔════╝░██╔══██╗
+                      ██║░░░░░█████╗░░░░░██║░░░░╚╝╚█████╗░  ██║░░██╗░██║░░██║
+                      ██║░░░░░██╔══╝░░░░░██║░░░░░░░╚═══██╗  ██║░░╚██╗██║░░██║
+                      ███████╗███████╗░░░██║░░░░░░██████╔╝  ╚██████╔╝╚█████╔╝
+                      ╚══════╝╚══════╝░░░╚═╝░░░░░░╚═════╝░  ░╚═════╝░░╚════╝░
+            </pre>
             <ul>
                 <li>Watching and playing soccer
                     <ul>
@@ -77,58 +89,167 @@
         
         <section>
             <h2>Some Projects I've Made For Fun</h2>
+            
             <p>Background score I made for a pirates game:</p>
-            <audio
-                controls
-                src="Pirates.mp3">
+            <audio controls>
+                <source src="Pirates.mp3" type="audio/mpeg">
             </audio>
 
-            <p>Password encrytion and storage app using Java Swing:</p>
-
+            <p>Password encrytion and storage app I built using Java:</p>
             <video controls width="250">
-
-                <source src="/media/cc0-videos/flower.webm"
-                        type="video/webm">
-            
-                <source src="/media/cc0-videos/flower.mp4"
+                <source src="PasswordStorage.mp4"
                         type="video/mp4">
-            
-                Sorry, your browser doesn't support embedded videos.
             </video>
 
+            <p>Website I built for side business:</p>
             <iframe id="inlineFrameExample"
                 title="Password Storage"
                 width="300"
                 height="200"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+                src="https://sites.google.com/view/tutorbrokers">
             </iframe> 
         </section>
 
         <hr>
+
+        <section>
+            <h2>Future Goals</h2> 
+            <ul>
+                <ol>
+                    <li>Get an internship</li> 
+                    <li>Get a job in the industry</li> 
+                    <li>Start a business</li>
+                    <li>Get an MBA</li>  
+                </ol>
+            </ul>
+        </section>
         
-        <nav class="crumbs">
-            <ol>
-                <li class="crumb"><a href="#">Bikes</a></li>
-                <li class="crumb"><a href="#">BMX</a></li>
-                <li class="crumb">Jump Bike 3000</li>
-            </ol>
-        </nav>
-
+        <!--
         <hr>
-
         <svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
             <circle cx="50" cy="50" r="40" />
         </svg>
+        -->
 
         <hr>
+
         <section>
             <h2>Business and Resume</h2>
-
-    
         </section>
+        
+        <hr>
+
+        <section>
+            <h2>Let's Learn More About Eachother!</h2>
+            <p>Please fill this form out:</p>
+
+            <label>Did you enjoy my page?</label> 
+            <select>
+                <optgroup label="Enjoyed it?">
+                  <option>Yes</option>
+                  <option>No</option> 
+                </optgroup>
+            </select>
+            <br><br>
+
+            <form>
+                <fieldset>
+                    <legend>Personal Info</legend>
+
+                    <label>Name:
+                        <input type="text" minlength="1" maxlength="16" name="submitted-name" autocomplete="name" size="30">
+                    </label> 
+                    <input type="Submit" value="Submit">
+                    
+                    <br>
+
+                    <label for="email">Email:
+                        <input type="email" id="email" pattern=".+@globex.com" size="30" required> 
+                    </label>
+                    <input type="Submit" value="Submit">
+
+                    <br>
+
+                    <label>
+                        Birthday:
+                        <input type="date" name="birthday" size="30">
+                    </label>   
+                    <input type="Submit" value="Submit">  
+                    
+                    <br>
+                    <label for="num">Phone number:</label>
+                    <input id="num" name="num" type="tel">
+                    <input type="Submit" value="Submit">  
+                </fieldset>
+            </form>
+
+            <form>
+                <fieldset>
+                    <legend>What's your favorite programming language?</legend>
+               
+                    <input type="radio" id="ARM Assembly" name="ARM Assembly">
+                    <label for="ARM Assembly">ARM Assembly</label><br>
+                    
+                    <input type="radio" id="C++" name="C++">
+                    <label for="C++">C++</label><br>
+
+                    <input type="radio" id="Other" name="Other">
+                    <label for="Other">Other</label><br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+
+            <form>
+                <fieldset>
+                    <legend>What's your favorite sport (out of the following 3)?</legend>
+
+                    <input type="checkbox" id="Soccer" name="Soccer">
+                    <label for="Soccer">Soccer</label><br/>
+                    
+                    <input type="checkbox" id="Football" name="Football">
+                    <label for="Football">Football</label><br/>
+
+                    <input type="checkbox" id="Golf" name="Golf">
+                    <label for="Golf">Other</label><br/>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+
+            <form>
+                <fieldset>
+                    <legend>How much do you like Software Engineering?</legend>
+                    <br>
+                    <input type="range" list="tickmarks">
+                    <label for="volume">a lot</label>
+
+                    <datalist id="tickmarks">
+                        <option value="0"></option>
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50"></option>
+                        <option value="60"></option>
+                        <option value="70"></option>
+                        <option value="80"></option>
+                        <option value="90"></option>
+                        <option value="100"></option>
+                    </datalist>
+
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+
+        </section>
+
+        <hr> 
         <footer>
             <p>Thanks for visiting!</p>
+            <nav>
+                <a href="#">Top Of Page</a>
+            </nav>
         </footer>
+
     </body>
 </html>
 
