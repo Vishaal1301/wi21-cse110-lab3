@@ -10,7 +10,8 @@
             <h1>Vishaal's Home Page</h1>
         </header>
         <main>
-            <h3>2nd-Year Computer Engineer at UC San Diego <br> Feel free to take a look!</h3>
+            <h3>2nd-Year Computer Engineer at UC San Diego</h3>
+            <aside>Feel free to take a look!</aside>
         </main>
 
         <section>
@@ -24,7 +25,7 @@
           
             <p> Academically and as a hobby, I love exploring the interface 
                 between <strong>hardware and software </strong> and want to 
-                use my skills to change the <span>world in a meaningful way.</span>
+                use my skills to <span style=color:blue>change the world in a meaningful way</span>.
             </p>
         </section> 
 
@@ -58,14 +59,25 @@
             </canvas>
 
             <p>Hobbies:</p>
-            <pre>
-                      ██╗░░░░░███████╗████████╗██╗░██████╗  ░██████╗░░█████╗░
-                      ██║░░░░░██╔════╝╚══██╔══╝╚█║██╔════╝  ██╔════╝░██╔══██╗
-                      ██║░░░░░█████╗░░░░░██║░░░░╚╝╚█████╗░  ██║░░██╗░██║░░██║
-                      ██║░░░░░██╔══╝░░░░░██║░░░░░░░╚═══██╗  ██║░░╚██╗██║░░██║
-                      ███████╗███████╗░░░██║░░░░░░██████╔╝  ╚██████╔╝╚█████╔╝
-                      ╚══════╝╚══════╝░░░╚═╝░░░░░░╚═════╝░  ░╚═════╝░░╚════╝░
-            </pre>
+            <details>
+                <summary>Guess my favorite soccer player</summary>
+                <pre>
+                   Bruno Fernandes    
+                        _      
+                       |.|     
+                       ]^[      
+                     /~`-'~\   
+                    {<|%  |>}  
+                     \|___|/   
+                     /\    \     
+                     |/>/|__\   
+                    _|)   \ |   
+                   (_,|    \)  
+                   / \     (|_  
+                .,.\_/,...,|,_)
+                </pre>
+            </details>
+
             <ul>
                 <li>Watching and playing soccer
                     <ul>
@@ -96,18 +108,21 @@
             </audio>
 
             <p>Password encrytion and storage app I built using Java:</p>
-            <video controls width="250">
+            <video controls width="500">
                 <source src="PasswordStorage.mp4"
                         type="video/mp4">
             </video>
 
-            <p>Website I built for side business:</p>
-            <iframe id="inlineFrameExample"
-                title="Password Storage"
-                width="300"
-                height="200"
-                src="https://sites.google.com/view/tutorbrokers">
-            </iframe> 
+            <p>Website and ad campaign I built for side business: </p>
+            <a href=https://sites.google.com/view/tutorbrokers>TutorBrokers</a>
+
+            <p>Helping build an airplane with this club:</p> 
+            <iframe 
+                title="Triton UAS"
+                width="500"
+                height="500"
+                src="https://tuas.ucsd.edu/embedded.html">
+            </iframe>
         </section>
 
         <hr>
@@ -124,19 +139,14 @@
             </ul>
         </section>
         
-        <!--
-        <hr>
-        <svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
-            <circle cx="50" cy="50" r="40" />
-        </svg>
-        -->
+        <template>
+            <hr>
+            <p>Shoot for the stars, but accept that you have to get past the circle stage.</p>
+            <svg width="150" height="150">
+                <circle cx="30" cy="30" r="30" />
+            </svg>
+        </template>
 
-        <hr>
-
-        <section>
-            <h2>Business and Resume</h2>
-        </section>
-        
         <hr>
 
         <section>
@@ -152,33 +162,40 @@
             </select>
             <br><br>
 
+            <label>Tell Me More About You!</label>
+            <br>
+            <textarea rows="5" cols="33">
+            Anything really
+            </textarea>
+            <br>
+
             <form>
                 <fieldset>
                     <legend>Personal Info</legend>
 
                     <label>Name:
-                        <input type="text" minlength="1" maxlength="16" name="submitted-name" autocomplete="name" size="30">
+                        <input type="text" name="submitted-name" size="30" required minlength="3" maxlength="16" autocomplete="name">
                     </label> 
-                    <input type="Submit" value="Submit">
                     
                     <br>
 
                     <label for="email">Email:
-                        <input type="email" id="email" pattern=".+@globex.com" size="30" required> 
+                        <input type="email" id="email" pattern=".+@ucsd.edu" size="30" required> 
                     </label>
-                    <input type="Submit" value="Submit">
 
                     <br>
 
                     <label>
                         Birthday:
                         <input type="date" name="birthday" size="30">
-                    </label>   
-                    <input type="Submit" value="Submit">  
+                    </label>
                     
                     <br>
-                    <label for="num">Phone number:</label>
-                    <input id="num" name="num" type="tel">
+
+                    <label for="num">Phone #:</label>
+                    <input id="num" name="num" type="tel" size="30">
+
+                    <br>
                     <input type="Submit" value="Submit">  
                 </fieldset>
             </form>
@@ -235,23 +252,46 @@
                         <option value="90"></option>
                         <option value="100"></option>
                     </datalist>
-
+                    <br>
                     <button>Submit</button>
                 </fieldset>
             </form>
-
         </section>
 
         <hr> 
+
+        <section>
+            <h2>Schedule</h2>
+        
+            <table>
+                <caption>When I'm Available</caption>
+                <colgroup>
+                    <col span="12">
+                </colgroup>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>5:00 pm to 11:00 pm</td>
+                    <td>6:00 pm to 11:00 pm</td>
+                    <td>7:00 pm to 11:00 pm</td>
+                    <td>2:00 pm to 11:00 pm</td>
+                    <td>3:00 pm to 11:00 pm</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
         <footer>
             <p>Thanks for visiting!</p>
             <nav>
                 <a href="#">Top Of Page</a>
             </nav>
         </footer>
-
     </body>
 </html>
-
-
-  
