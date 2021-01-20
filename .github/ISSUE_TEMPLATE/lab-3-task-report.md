@@ -9,4 +9,4 @@ assignees: Vishaal1301
 
 **Task (the broad goal):**
 
-**"Short Description (specific within broad goal):"**
+**Short Description (specific within broad goal):**
