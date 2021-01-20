@@ -1,0 +1,54 @@
+* {
+    /* add custom font*/
+    margin: 10px;
+}
+
+a[href^="#"] {
+    color:rgb(255,0,0);
+}
+
+a:hover {
+    color: #FFF;
+    /*background-color: hsla(142, 100, 50, 0.5)*/
+}
+
+.mandellaColor {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: green;
+}
+
+#asideText {
+    color: rgba(10, 129, 240, 1);
+}
+
+legend, caption{
+    font-family: 'Arial Narrow Bold';
+    color: hsl(32, 100%, 50%);
+}
+
+li{
+    list-style-type: circle; 
+}
+
+li li {
+    list-style-type: disc;
+}
+
+p > strong {
+    background-color: burlywood;
+}
+
+aside ~ span {
+    color: hsla(142, 100%, 50%, 0.5);
+}
+
+input + input {
+    color: blueviolet;
+}
+
+.two.selectors {
+    color: pink; 
+}
