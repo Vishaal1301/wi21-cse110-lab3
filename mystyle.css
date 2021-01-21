@@ -30,7 +30,7 @@ h2 {
 }
 
 legend, caption{
-    font-family: 'Arial Narrow Bold';
+    font-family: 'Raleway', sans-serif;
     color: hsl(32, 100%, 50%);
 }
 
@@ -110,16 +110,35 @@ button:active {
 .parent {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10;
-    margin: 10;
+    padding: 0;
+    margin: 0;
   }
   
  .child {
-    flex-shrink: 3;
-    flex-grow: 4;
-    flex-basis: auto;
     width: 100px;  
     height: 100px; 
+    padding: 5px;
+    background:rgba(68, 162, 255, 0.998);
+    color: black;
     margin: auto;  
  }
+
+ .container{
+     display: grid;
+     grid-template-columns: 100px 100px 100px 100px 100px; 
+     grid-template-rows: auto;
+     column-gap: 50px;
+     background:rgba(68, 162, 255, 0.998);
+ }
+
+ .item {
+    justify-self: stretch;
+  }
+
+ @media screen and (max-width: 300px) {
+    p {
+      color: black;
+    }
+}
