@@ -3,6 +3,7 @@
     margin: .25cm;
 }
 
+
 a[href^="#"] {
     color:rgb(255,0,0);
 }
@@ -137,8 +138,12 @@ button:active {
     justify-self: stretch;
   }
 
- @media screen and (max-width: 300px) {
+ @media screen and (max-width: 600px) {
     p {
-      color: black;
+      color: brown;
     }
+ }
+ 
+ p::selection {
+    color: blue;
 }
