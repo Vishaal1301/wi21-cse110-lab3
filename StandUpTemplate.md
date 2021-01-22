@@ -7,8 +7,6 @@
 - [ ] Team Member 3
 - [ ] Team Member 4
 
-### Current Sprint:
-
 ### Team Member 1
 _Mood (how are you feeling today?):_
 
@@ -17,6 +15,8 @@ _What did you work on yesterday?_
 _What are you working on today?_
 
 _Are there any impediments?_
+
+_Goal for next time:_
 
 ### Team Member 2
 _Mood (how are you feeling today?):_
@@ -27,6 +27,8 @@ _What are you working on today?_
 
 _Are there any impediments?_
 
+_Goal for next time:_
+
 ### Team Member 3
 _Mood (how are you feeling today?):_
 
@@ -36,6 +38,8 @@ _What are you working on today?_
 
 _Are there any impediments?_
 
+_Goal for next time:_
+
 ### Team Member 4
 _Mood (how are you feeling today?):_
 
@@ -44,3 +48,5 @@ _What did you work on yesterday?_
 _What are you working on today?_
 
 _Are there any impediments?_
+
+_Goal for next time:_
